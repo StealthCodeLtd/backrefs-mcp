@@ -1,6 +1,6 @@
 # @stealth-code/backrefs-mcp
 
-[![npm](https://img.shields.io/npm/v/@stealth-code/backrefs-mcp)](https://www.npmjs.com/package/@stealth-code/backrefs-mcp) [![license](https://img.shields.io/npm/l/@stealth-code/backrefs-mcp)](LICENSE)
+[![npm](https://img.shields.io/npm/v/@stealth-code/backrefs-mcp)](https://www.npmjs.com/package/@stealth-code/backrefs-mcp) [![license](https://img.shields.io/github/license/StealthCodeLtd/backrefs-mcp)](LICENSE)
 
 Connect your AI tools to [Backrefs](https://backrefs.com) and run your backlink campaigns from chat.
 
