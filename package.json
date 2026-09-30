@@ -1,0 +1,50 @@
+{
+  "name": "@stealth-code/backrefs-mcp",
+  "version": "0.1.0",
+  "description": "Connect your AI tools to the Backrefs MCP server",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "backrefs",
+    "claude",
+    "codex",
+    "cursor"
+  ],
+  "homepage": "https://github.com/StealthCodeLtd/backrefs-mcp#readme",
+  "bugs": "https://github.com/StealthCodeLtd/backrefs-mcp/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StealthCodeLtd/backrefs-mcp.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "backrefs-mcp": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsup",
+    "check-types": "tsc --noEmit",
+    "test": "vitest run",
+    "prepublishOnly": "npm run check-types && npm test && npm run build"
+  },
+  "dependencies": {
+    "@clack/prompts": "^1.8.1",
+    "smol-toml": "^1.9.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "tsup": "^8.5.1",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
