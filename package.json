@@ -34,7 +34,7 @@
     "prepublishOnly": "npm run check-types && npm test && npm run build"
   },
   "dependencies": {
-    "@clack/prompts": "^0.11.0",
+    "@clack/prompts": "^1.8.1",
     "zod": "^4.3.6"
   },
   "devDependencies": {
