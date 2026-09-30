@@ -8,7 +8,7 @@
     "url": "https://github.com/StealthCodeLtd/backrefs-mcp",
     "source": "github"
   },
-  "version": "0.1.0",
+  "version": "0.2.0",
   "remotes": [
     {
       "type": "streamable-http",

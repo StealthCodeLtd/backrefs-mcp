@@ -1,6 +1,6 @@
 {
   "name": "@stealth-code/backrefs-mcp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Connect your AI tools to the Backrefs MCP server",
   "keywords": [
     "mcp",
