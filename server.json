@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.backrefs/mcp",
+  "title": "Backrefs",
+  "description": "Plan, launch and track backlink campaigns on your Backrefs account.",
+  "websiteUrl": "https://backrefs.com",
+  "repository": {
+    "url": "https://github.com/StealthCodeLtd/backrefs-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.backrefs.com",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional \"Bearer brf_...\" key. Omit it to sign in with OAuth in the browser.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
